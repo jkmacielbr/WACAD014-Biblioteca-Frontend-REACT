@@ -1,4 +1,10 @@
 import React, { Component } from "react";
+import logo1 from './utils/logo1.png'
+import logo2 from './utils/logo2.png'
+import logo3 from './utils/logo3.jpeg'
+import logo4 from './utils/logo4.png'
+import logo5 from './utils/logo5.png'
+import logo6 from './utils/logo6.png'
 
 class Card extends Component {
   render() {
@@ -18,12 +24,12 @@ class Card extends Component {
     >
       <title>Placeholder</title>
       
-      <image href="logo192.png" width="100%" height="100%" />
+      <image href={logo1} width="100%" height="100%" />
       
     </svg>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title">Camisa 1 CR FLAMENGO 23/24</h5>
+      <a href="#" class="btn btn-primary">R$349,75</a>
     </div>
   </div>
 </div>
@@ -41,12 +47,11 @@ class Card extends Component {
               focusable="false"
             >
               <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+              <image href={logo2} width="100%" height="100%" />
             </svg>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camisa 3 FLAMENGO </h5>
+              <a href="#" class="btn btn-primary">R$390,00</a>
             </div>
           </div>
         </div>
@@ -63,12 +68,11 @@ class Card extends Component {
               focusable="false"
             >
               <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+              <image href={logo3} width="100%" height="100%" />
             </svg>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camisa 1 CR FLAMENGO 22</h5>
+              <a href="#" class="btn btn-primary">R$230,00</a>
             </div>
           </div>
         </div>
@@ -85,12 +89,11 @@ class Card extends Component {
               focusable="false"
             >
               <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+              <image href={logo4} width="100%" height="100%" />
             </svg>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camisa FLAMENGO II 23/24</h5>
+              <a href="#" class="btn btn-primary">R$284,00</a>
             </div>
           </div>
         </div>
@@ -107,12 +110,11 @@ class Card extends Component {
               focusable="false"
             >
               <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+              <image href={logo5} width="100%" height="100%" />
             </svg>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camisa Flamengo 23</h5>
+              <a href="#" class="btn btn-primary">R$184,00</a>
             </div>
           </div>
         </div>
@@ -129,12 +131,11 @@ class Card extends Component {
               focusable="false"
             >
               <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+              <image href={logo6} width="100%" height="100%" />
             </svg>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Camisa FLAMENGO Retro</h5>
+              <a href="#" class="btn btn-primary">R$205,90</a>
             </div>
           </div>
         </div>
