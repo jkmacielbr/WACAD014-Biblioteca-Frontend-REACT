@@ -10,7 +10,7 @@ class Card extends Component {
   render() {
     const {logo, title, price} = this.props;
     return (
-      <div className="row row-cols-1 row-cols-md-3 g-6">
+      
         <div className="col">
           <div className="card h-100">
             <svg
@@ -34,7 +34,7 @@ class Card extends Component {
             </div>
           </div>
         </div>
-        </div>
+        
        
     )
     }
