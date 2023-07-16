@@ -4,7 +4,7 @@ class Navbar extends Component {
     render() {
         const {menu1, menu2, menu3, menu4,
             subMenu1, subMenu2, subMenu3} = this.props
-        
+    
         return (
             <nav class="navbar navbar-expand-lg bg-primary">
                 <div class="container-fluid">
